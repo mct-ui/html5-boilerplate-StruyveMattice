@@ -3,7 +3,8 @@ html {
   line-height: 1.5;
   font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
   color: #111;
-  padding: 24px 24px 0; /*wanneer er maar drie zijn, top, left-right, bottom*/
+  padding: 48px 24px 24px; /*wanneer er maar drie zijn, top, left-right, bottom*/
+  scroll-behavior: smooth;
 }
 
 ::-moz-selection {
